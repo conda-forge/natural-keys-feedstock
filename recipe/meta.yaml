@@ -1,5 +1,5 @@
 {% set name = "natural-keys" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/natural-keys-{{ version }}.tar.gz
-  sha256: f3c35669235aa70bc5fee9891cc322675a3f3040a28be48db21d1c506ef8ce46
+  sha256: 67dbfdfd975fe19256c7385aae56b6c7d65d9f595523d1c75703ef91e292da16
 
 build:
   noarch: python
